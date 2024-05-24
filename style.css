@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Martel Sans", sans-serif;
+
+}
+
+.main {
+  background-image: url(bg.png);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+}
+
+.main .box {
+
+  height: 80vh;
+  width: 100%;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  background-color: black;
+
+}
+
+nav {
+  max-width: 60vw;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+
+
+}
+
+nav img {
+  color: red;
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+  height: 30px;
+  width: 100px;
+  font-size: 16px;
+}
+
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+  font-size: 48px;
+  font-weight: 1000;
+  text-align: center;
+
+}
+
+.hero>:nth-child(2) {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hero> :nth-child(3) {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.seperation {
+  height: 7px;
+  background-color: rgb(55, 55, 55);
+}
+
+.btn {
+
+  padding: 3px 8px;
+  background-color: rgba(134, 134, 134, 0.342);
+  border: 1px solid rgba(255, 254, 254, 0.7);
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  gap: 16px;
+
+}
+
+.btn-red-sm {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 16px 34px;
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.main input {
+  color: white;
+  padding: 18px 150px 18px 9px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgba(23, 23, 23, 0.6);
+  font-weight: 500;
+  border: 1px solid rgba(154, 152, 152, 0.7);
+
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 110px;
+
+}
+
+
+
+.secImg {
+  position: relative;
+
+
+
+}
+
+.secImg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+
+
+}
+
+.secImg video {
+  position: absolute;
+
+}
+
+.v1 {
+  width: 80%;
+  top: 95px;
+  right: 62px;
+}
+
+.v2 {
+
+  width: 61%;
+  top: 68.6px;
+  right: 62px;
+}
+
+section.first>div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+
+.first>div :first-child {
+  font-size: 40px;
+  font-weight: 900;
+
+
+}
+
+.first>div :nth-child(2) {
+  font-size: 20px;
+}
+
+.faq {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-size: 30px;
+  font-weight: 1200;
+
+}
+
+.faqbox {
+  display: flex;
+  background-color: #2d2d2d;
+  padding: 25px;
+  max-width: 70vw;
+  margin: 10px auto;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all ease-in-out;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 14px;
+  padding-bottom: 74px;
+
+}
+
+.question {
+  margin: 34px 0;
+}
+
+.footer {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.footer-item a {
+  color: white;
+  font-weight: 200;
+}
+
+.hero1 {
+  font-family: "Martel Sans", sans-serif;
+  padding: 50px;
+  font-size: 20px;
+  line-height: 70px;
+}
+
+.hero1 input {
+
+  color: white;
+  padding: 18px 150px 18px 9px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgba(23, 23, 23, 0.6);
+  font-weight: 500;
+  border: 1px solid rgba(154, 152, 152, 0.7);
+}
+
+@media screen and (max-width:1300px) {
+  nav {
+    max-width: 90vw;
+  }
+
+  .first {
+    flex-wrap: wrap;
+
+  }
+
+  .secImg img {
+    width: 305px;
+  }
+
+  .secImg video {
+    width: 205px;
+
+
+  }
+
+  .v1 {
+    position: absolute;
+    padding-bottom: 20px;
+  }
+
+  .v2 {}
+
+  .hero> :nth-child(1) {
+    font-size: 28px;
+    font-weight: 1000;
+    text-align: center;
+
+  }
+
+  .hero> :nth-child(2) {
+    font-size: 18px;
+    font-weight: 1000;
+    text-align: center;
+
+  }
+
+  .hero> :nth-child(3) {
+    font-size: 18px;
+    font-weight: 1000;
+    text-align: center;
+
+  }
+
+  .main input {
+    padding: 7px 53px 8px 14px;
+  }
+
+  .btn-red {
+    font-size: 12px;
+
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+}
+
+
+@media screen and (max-width:1300px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .footer a {
+    color: white;
+    font-size: 14px;
+  }
+}
